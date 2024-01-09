@@ -1,0 +1,176 @@
+body {
+    background: #00030c;
+}
+
+:root {
+    --cinza: #c0c0c0;
+}
+
+.principal {
+    background-image: url(Background.png);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: contain;
+    padding: 0 50px;
+}
+
+.divisao {
+    background-size: contain;
+    height: 100ch;
+    background-repeat: no-repeat;
+}
+
+#topo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    padding-bottom: 4em;
+    align-items: center;
+}
+
+h1.head {
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.head {
+    padding-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    color: var(--cinza);
+    text-align: left;
+    font-size: 1em;
+    opacity: 70%;
+}
+
+small,
+footer {
+    font-size: .4em;
+    text-align: center;
+    color: var(--cinza);
+}
+
+img [alt="combo"] {
+    width: 348px;
+    height: 100px;
+}
+
+button {
+    width: 90%;
+    height: 56px;
+    margin-bottom: 1em;
+    background-color: transparent;
+    border: none;
+    border-radius: 8px;
+    background-color: #167BF7;
+    color: white;
+    font-size: 16px;
+}
+
+.aluraplus {
+    background: transparent;
+    border: 1px solid var(--cinza);
+}
+
+.desg {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 165px;
+    padding-right: 120px;
+}
+
+#respon {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    padding: 0 100px;
+    margin-bottom: 100px;
+}
+
+[alt="plataforma"] {
+    width: 420px;
+}
+
+h1.ass {
+    color: white;
+    font-size: 3em;
+}
+
+.ass {
+    padding-bottom: .5em;
+    text-align: left;
+
+}
+
+div {
+    width: 50ch;
+}
+
+.asst {
+    margin-bottom: 15px;
+}
+
+#asstela {
+    width: 162px;
+    height: 56px;
+    margin: 0;
+}
+
+.resp {
+    width: 350px;
+}
+
+#res {
+    width: 100%;
+    color: white;
+    font-size: 3.2em;
+    text-align: center;
+}
+
+#respon p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3em;
+    opacity: 100%;
+}
+
+footer img {
+    margin-bottom: 20px;
+}
+
+nav ul {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 25px;
+
+}
+
+footer a {
+    color: white;
+    font-size: 2.5em;
+    text-decoration: none;
+}
+
+footer p {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
